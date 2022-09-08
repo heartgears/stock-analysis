@@ -18,7 +18,6 @@ The stock that Steve's parents chose was not a strong performer in the market, t
 * The tickerIndex is used to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays
 * The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices 
 * Code for formatting the cells in the spreadsheet
-* 
 
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
