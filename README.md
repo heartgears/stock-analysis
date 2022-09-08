@@ -2,11 +2,23 @@
 ## Overview
 The purpose of this analysis was to help Steve make informed decisions in the stock market regarding a particular set of stocks. By comparing the stock DQ against other similar stocks, we can see if it is a worthwhile investment for Steve's parents.
 
+## Technologies and Requirements
+* Software: Microsoft Excel
+* Coding Languages: VBA
+
 ## Results
 The stock that Steve's parents chose was not a strong performer in the market, they would be better off choosing a different stock to invest in, like ENPH, which had the strongest performance of the group considering both 2017 and 2018. While the sock market overall had poor performance in 2018, ENPH delivered the second best return of the group at 81%, just behind RUN at 84%. The year prior, EPH had the third best return of the group, increasing by more than 100%, while the two stocks that outperformed it in 2017 would lost value the following year.
 
 ![2017](2017_stock.png)
 ![2018](2018_stock.png)
+
+### Code Deliverables
+* The tickerIndex is set equal to zero before looping over the rows
+* Arrays are created for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices
+* The tickerIndex is used to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays
+* The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices 
+* Code for formatting the cells in the spreadsheet
+* 
 
 ## Summary
 ### What are the advantages or disadvantages of refactoring code?
